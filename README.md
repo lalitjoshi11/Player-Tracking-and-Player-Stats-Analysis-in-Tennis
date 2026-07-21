@@ -63,7 +63,7 @@ Input Video → Player Detection → Kalman Tracking → Hungarian Association �
 ## Usage
 
 ```bash
-python src/courtvision\_ui.py
+python src/courtvision_ui.py
 ```
 
 Paste a YouTube URL or local video path, select a time range, and run analysis. Output is a stats-annotated video with an embedded minimap.
