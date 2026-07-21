@@ -1,0 +1,9 @@
+# Add this block in main.py, replacing the hardcoded VIDEO_PATH and OUTPUT_PATH
+import os
+
+PLAYER_MODEL_PATH = r"E:\MP\main\lalit\best_of_player\best_of_player.pt"
+COURT_MODEL_PATH  = r"E:\MP\runs\pose\100epoches\weights\best.pt"
+
+# Reads from UI if launched via courtvision_ui.py, otherwise uses hardcoded paths
+VIDEO_PATH  = os.environ.get("CV_VIDEO_PATH",  r"C:\Users\lalit\Downloads\difficult.mp4")
+OUTPUT_PATH = os.environ.get("CV_OUTPUT_PATH", r"E:\MP\testing_output.mp4")
