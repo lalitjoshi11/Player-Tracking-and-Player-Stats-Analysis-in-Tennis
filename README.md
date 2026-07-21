@@ -1,6 +1,6 @@
+**Player-Tracking-and-Player-Stats-Analysis-in-Tennis**
+
 A cost-effective, vision-based system for tracking tennis players and generating performance analytics from standard broadcast video — no specialized hardware required.
-
-
 
 ## Overview
 
@@ -100,5 +100,5 @@ If you use this work, please cite the paper above.
 
 ## License
 
-This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
+This project is licensed under the MIT License see [LICENSE](LICENSE) for details.
 
